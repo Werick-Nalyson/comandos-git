@@ -1,0 +1,47 @@
+Configurar nome de usuário
+git config --global user.name "NomeDeUsuário"
+
+Configurar email do usuário
+git config --global user.email "email@gmail.com"
+
+Inicializar um repositório
+git init
+
+Adiciona arquivo para cotrole de versão
+git add . / git add nomeDoArquivo
+
+Visualiza o status dos arquivo
+git status
+
+Cria um ponto na história do projeto
+git commit -m "Mensagem do commit"
+
+Ver quais alterações foram feitas nos arquivos do projeto
+git diff
+
+Histórico de commits realizados no projeto
+git log
+
+Visualizar informações de um commit já feito
+git checkout numeroDoComit
+git checkout master (volta para o ultimo commit)
+
+Criar uma nova ramificação / branch
+git branch nomeDoBranch
+git branch -D nomeDoBranch (Deleta um branch)
+git branch (visualiza todos os branchs existentes)
+git checkout nomeDoBranch (Altera o branch em que está)
+
+Atrelar commits de algum branch para o brach master
+git merge nomeDoBranch
+
+Criar repositório remoto no github
+git remote add origin URL
+git remote -v (Lista todos os pontos remotos)
+gir push origin master
+
+Para clonar um repositório para o seu pc
+git clone URL nomeDaPasta
+
+Para puxar apenas as alterações feitas de um repositório remoto
+git pull origin master
