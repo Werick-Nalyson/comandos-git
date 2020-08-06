@@ -15,6 +15,7 @@ git status
 
 Cria um ponto na história do projeto
 git commit -m "Mensagem do commit"
+git reset HEAD~1 (reseta a qtd ~1, ~2... de commits quando ainda não foi feito o push)
 
 Ver quais alterações foram feitas nos arquivos do projeto
 git diff
