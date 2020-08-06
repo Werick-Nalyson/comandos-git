@@ -38,7 +38,7 @@ git merge nomeDoBranch
 Criar repositório remoto no github
 git remote add origin URL
 git remote -v (Lista todos os pontos remotos)
-gir push origin master
+git push origin master
 
 Para clonar um repositório para o seu pc
 git clone URL nomeDaPasta
